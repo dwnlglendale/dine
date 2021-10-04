@@ -1,3 +1,4 @@
+import 'package:dine/category_meals.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -26,6 +27,9 @@ class MyApp extends StatelessWidget {
         textTheme: ThemeData.light().textTheme.copyWith(bodyText2: GoogleFonts.raleway(), bodyText1: GoogleFonts.robotoCondensed(),),
       ),
       home: const CategoriesPage(),
+      routes: {
+        CategoryMeals.routeName: (ctx) => const CategoryMeals(),
+      },
     );
   }
 }

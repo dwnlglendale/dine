@@ -15,7 +15,7 @@ class CategoriesPage extends StatelessWidget {
         children: dummyCategories
             .map(
               (catData) =>
-                  CategoryItem(title: catData.title, bgColor: catData.bgColor),
+                  CategoryItem(title: catData.title, bgColor: catData.bgColor, id: catData.iD,),
             )
             .toList(),
         gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
