@@ -1,10 +1,9 @@
-import 'package:dine/widgets/category_meals.dart';
+import 'package:dine/screens/category_meals.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:dine/models/meal.dart';
-import 'widgets/dummy_data.dart';
 
-import 'package:dine/widgets/categories_screen.dart';
+
+import 'package:dine/screens/categories_screen.dart';
 
 void main() => runApp(const MyApp());
 

@@ -1,7 +1,7 @@
-import 'package:dine/widgets/category_meals.dart';
+import 'package:dine/screens/category_meals.dart';
 import 'package:flutter/material.dart';
 
-import 'category_meals.dart';
+import '../screens/category_meals.dart';
 
 class CategoryItem extends StatelessWidget {
   const CategoryItem({Key? key, required this.title, required this.bgColor, required this.id})

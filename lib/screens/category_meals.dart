@@ -1,5 +1,6 @@
 import 'package:dine/widgets/dummy_data.dart';
 import 'package:flutter/material.dart';
+import 'package:dine/widgets/meal_item.dart';
 
 
 class CategoryMeals extends StatelessWidget {
@@ -25,7 +26,7 @@ class CategoryMeals extends StatelessWidget {
       ),
       body:  SafeArea(
         child: ListView.builder(itemBuilder: (ctx, index){
-             return Text(categoryMeals[index].title);
+             return MealItem(imageUrl: categoryMeals[index].imageUrl, title: categoryMeals[index].title, duration: categoryMeals[index].duration, affordability: categoryMeals[index].affordability, complexity: categoryMeals[index].complexity);
         }, itemCount: categoryMeals.length,),
       ),
     );

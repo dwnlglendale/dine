@@ -22,7 +22,7 @@ final dummyMeals = [
       complexity: Complexity.simple,
       duration: 20,
       imageUrl:
-          'https://images-gmi-pmc.edge-generalmills.com/71c89d7a-9347-481b-adc0-0ecab07b24b4.jpg',
+          'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.recipetineats.com%2Fspaghetti-alla-puttanesca%2F&psig=AOvVaw3crA-sKQybPZrFWXc6c-6s&ust=1633537427817000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKjZpprXs_MCFQAAAAAdAAAAABAD',
       ingredients: [
         '4 Tomatoes',
         '1 Tablespoon of Olive Oil',
@@ -43,7 +43,7 @@ final dummyMeals = [
       complexity: Complexity.simple,
       duration: 20,
       imageUrl:
-      'https://images-gmi-pmc.edge-generalmills.com/71c89d7a-9347-481b-adc0-0ecab07b24b4.jpg',
+      'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.recipetineats.com%2Fspaghetti-alla-puttanesca%2F&psig=AOvVaw3crA-sKQybPZrFWXc6c-6s&ust=1633537427817000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKjZpprXs_MCFQAAAAAdAAAAABAD',
       ingredients: [
         '4 Tomatoes',
         '1 Tablespoon of Olive Oil',
