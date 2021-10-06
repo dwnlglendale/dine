@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 
 import 'package:dine/screens/categories_screen.dart';
+import 'screens/meal_detail.dart';
 
 void main() => runApp(const MyApp());
 
@@ -30,6 +31,8 @@ class MyApp extends StatelessWidget {
       home: const CategoriesPage(),
       routes: {
         CategoryMeals.routeName: (ctx) => const CategoryMeals(),
+        MealDetailScreen.routeName: (ctx) => const MealDetailScreen(),
+
       },
     );
   }
